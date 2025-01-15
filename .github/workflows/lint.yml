@@ -2,20 +2,18 @@ name: Lint
 
 on:
   pull_request:
-    branches: [main]
+    branches: [main, stable]
   workflow_dispatch:
 
 jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '14'
-      - name: Install modules.
-        run: yarn
+      - uses: actions/checkout@v3
+      - uses: ./.github/actions/install-deps
       - name: Lint code.
-        run: yarn lint
+        run: pnpm lint
       - name: Prettier code.
-        run: yarn prettier
+        run: pnpm prettier
+      - name: Find dead code
+        run: pnpm find-deadcode

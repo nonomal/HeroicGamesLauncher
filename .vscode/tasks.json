@@ -2,40 +2,42 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "type": "npm",
-      "script": "dist",
-      "problemMatcher": [],
-      "label": "Test",
-      "detail": "yarn test",
-      "group": {
-        "kind": "test",
-        "isDefault": true
-      }
+      "type": "shell",
+      "label": "Run tests",
+      "command": "pnpm test",
+      "detail": "pnpm test",
+      "group": "test"
     },
     {
-      "type": "npm",
-      "script": "dist",
-      "problemMatcher": [],
+      "type": "shell",
       "label": "Build for Linux",
-      "detail": "yarn build-electron && yarn build && electron-builder -c.extraMetadata.main=build/main.js --linux",
+      "command": "pnpm dist:linux",
+      "detail": "pnpm dist:linux",
       "group": {
         "kind": "build",
         "isDefault": true
       }
     },
     {
-      "type": "npm",
-      "script": "dist",
-      "problemMatcher": [],
+      "type": "shell",
       "label": "Build for Windows",
-      "detail": "yarn build-electron && yarn build && electron-builder -c.extraMetadata.main=build/main.js --win"
+      "command": "pnpm dist:win",
+      "detail": "pnpm dist:win",
+      "group": "build"
     },
     {
-      "type": "npm",
-      "script": "dist",
-      "problemMatcher": [],
+      "type": "shell",
       "label": "Build for MacOS",
-      "detail": "yarn build-electron && yarn build && electron-builder -c.extraMetadata.main=build/main.js --darwin"
+      "command": "pnpm dist:mac",
+      "detail": "pnpm dist:mac",
+      "group": "build"
+    },
+    {
+      "type": "shell",
+      "label": "Check code for errors",
+      "command": "pnpm codecheck",
+      "detail": "pnpm codecheck",
+      "group": "test"
     }
   ]
 }

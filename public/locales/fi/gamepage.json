@@ -1,89 +1,217 @@
 {
     "box": {
         "change": {
-            "message": "Tämä vaihtaa pelin asennuksen sijaintia, haluatko jatkaa?",
-            "path": "Valitse uusi sijainti asennukselle",
-            "title": "Vaihda pelin asennuksen sijaintia"
+            "message": "Tämä muuttaa pelin asennussijaintia, haluatko jatkaa?",
+            "path": "Valitse uusi asennussijainti",
+            "title": "Vaihda pelin asennussijaintia"
         },
         "choose": "Valitse",
-        "importpath": "Valitse tuotavan pelin kansio",
+        "importpath": "Valitse tuotava pelikansio",
         "move": {
-            "message": "Tämä prosessi voi viedä paljon aikaa, haluatko jatkaa?",
-            "path": "Valitse, minne haluat siirtää",
+            "message": "Tämä voi kestää kauan, oletko varma?",
+            "path": "Valitse mihin haluat siirtää",
             "title": "Siirrä pelin asennus"
         },
         "no": "EI",
         "repair": {
-            "message": "Haluatko yrittää korjata tämän pelin? Tämä prosessi voi viedä paljon aikaa.",
-            "title": "Vahvista ja korjaa"
+            "message": "Haluatko yrittää korjata tämän pelin? Tämä voi kestää kauan.",
+            "title": "Tarkista ja korjaa"
+        },
+        "runexe": {
+            "title": "Valitse suoritettava EXE"
+        },
+        "select": {
+            "button": "Valitse"
+        },
+        "sideload": {
+            "exe": "Valitse suoritettava tiedosto"
         },
         "stopInstall": {
-            "keepInstalling": "Jatka asennusta",
+            "keepInstalling": "Jatka asentamista",
             "message": "Haluatko SÄILYTTÄÄ ladatut tiedostot?",
             "title": "Pysäytä asennus"
         },
         "uninstall": {
-            "message": "Haluatko poistaa pelin?",
-            "title": "Poista"
+            "checkbox": "Poista prefix: {{prefix}}{{newLine}}Huom: Tätä ei voi perua ja tämä poistaa tiedostot, joita ei ole varmuuskopioitu.",
+            "message": "Haluatko poistaa \"{{title}}\" asennuksen?",
+            "settingcheckbox": "Tyhjennä asetukset ja poista lokitiedosto{{newLine}}Huom: Tätä ei voi peruuttaa. Kaikki muutokset asetuksiin unohdetaan ja lokitiedosto poistetaan.",
+            "title": "Poista asennus",
+            "prefix_warning": "Tämän pelin Wine-prefix on oletusprefix. Jos todella haluat poistaa sen, sinun on tehtävä se manuaalisesti.",
+            "dlc": "Haluatko poistaa \"{{title}}\" (DLC) asennuksen?",
+            "cannotUninstallEpic": "Epic–peliasennusta ei voi poistaa samaan aikaan, kun toista Epic–peliä asennetaan."
         },
         "update": {
-            "message": "Tälle pelille on saatavilla päivitys, haluatko päivittää sen nyt?",
-            "title": "Peli tarvitsee päivityksen"
+            "message": "Tälle pelille on saatavilla päivitys, haluatko asentaa sen nyt?",
+            "title": "Peli vaatii päivityksen"
         },
-        "wineprefix": "Select WinePrefix Folder",
-        "yes": "KYLLÄ"
+        "wineprefix": "Valitse WinePrefix-kansio",
+        "yes": "KYLLÄ",
+        "close": "Sulje"
     },
     "button": {
-        "cancel": "Peruuta",
+        "add_to_favourites": "Lisää suosikkeihin",
+        "cancel": "Pysäytä/Peruuta",
         "continue": "Jatka latausta",
-        "import": "Tuo",
+        "finish": "Viimeistele",
+        "force_update": "Pakota päivitys, jos saatavilla",
+        "force-innstall": "Pakota asennus",
+        "hide_game": "Piilota peli",
+        "import": "Tuo peli",
         "install": "Asenna",
-        "uninstall": "Poista",
-        "update": "Päivitä"
+        "no-path-selected": "Ei valittua polkua",
+        "queue": {
+            "remove": "Poista jonosta"
+        },
+        "remove_from_favourites": "Poista suosikeista",
+        "remove_from_recent": "Poista viimeisimmistä",
+        "run-exe-first": "Suorita asentaja ensin",
+        "running-setup": "Suoritetaan järjestelyä",
+        "sideload": {
+            "edit": "Muokkaa sovellusta/peliä"
+        },
+        "unhide_game": "Näytä peli",
+        "uninstall": "Poista asennus",
+        "update": "Päivitä",
+        "details": "Yksityiskohdat",
+        "changelog": "Näytä muutosloki"
     },
+    "cloud_save_unsupported": "Ei tuettu",
     "disabled": "Pois käytöstä",
     "dlc": {
-        "installDlcs": "Install all DLCs",
-        "title": "DLCs"
+        "installDlcs": "Asenna kaikki lisäosat"
     },
     "enabled": "Käytössä",
     "game": {
-        "downloadSize": "Download Size",
+        "downloadSize": "Latauksen koko",
         "firstPlayed": "Ensimmäisen kerran pelattu",
-        "installSize": "Install Size",
+        "getting-download-size": "Geting download size",
+        "getting-install-size": "Geting install size",
+        "installSize": "Asennuskoko",
+        "language": "Kieli",
         "lastPlayed": "Viimeksi pelattu",
         "neverPlayed": "Ei koskaan",
-        "totalPlayed": "Pelattu aika"
+        "platform": "Valitse alustaversio asentaaksesi",
+        "requirements": "Järjestelmävaatimukset",
+        "totalPlayed": "Pelattu aika",
+        "dlcs": "DLCs",
+        "branch": {
+            "disabled": "Kytketty pois",
+            "setPrivateBranchPassword": "Aseta yksityisen kanavan salasana",
+            "password": "Aseta yksityisen kanavan salasana",
+            "select": "Valitse beta-kanava"
+        },
+        "builds": {
+            "version": "Versio",
+            "buildsSelector": "Valitse pelin versio",
+            "toggle": "Pidä peli tietyssä versiossa"
+        },
+        "modify": "Muokkaa Asennusta",
+        "changelogFor": "{{gameTitle}} muutosloki"
     },
     "gamecard": {
         "moving": "Siirretään",
         "repairing": "Korjataan"
     },
+    "generic": {
+        "error": "Tuntematon virhe",
+        "noDescription": "ei kuvausta saatavilla"
+    },
+    "hours": "Tunnit",
+    "how-long-to-beat": {
+        "completionist": "Suorittaja",
+        "main-plus-extras": "Pää- + lisä-",
+        "main-story": "Päätarina"
+    },
+    "howLongToBeat": "Läpäisemiseen menevä aika",
     "info": {
-        "canRunOffline": "Online Required",
+        "canRunOffline": "Online-tila vaaditaan",
+        "installedPlatform": "Asennettu alusta",
         "path": "Asennuksen sijainti",
         "size": "Koko",
         "syncsaves": "Synkronoi tallennukset",
-        "version": "Versio"
+        "version": "Versio",
+        "apple-gaming-wiki": "AppleGamingWiki-luokitus",
+        "clickToOpen": "Avaa napsauttamalla",
+        "game-scores": "Pelin Pisteet",
+        "installedInfo": "Asennettu tiedot",
+        "protondb-compatibility-info": "Protonien yhteensopivuustaso",
+        "steamdeck-compatibility-info": "SteamDeck-yhteensopivuus"
     },
     "install": {
-        "path": "Select Install Path",
-        "wineprefix": "WinePrefix"
+        "disk-space-left": "Tilaa saatavilla",
+        "not-enough-disk-space": "Ei tarpeeksi levytilaa",
+        "path": "Valitse asennuspolku",
+        "path-not-writtable": "Varoitus: polkuun ei ehkä pysty kirjoittamaan.",
+        "space-after-install": "Asennuksen jälkeen",
+        "wineprefix": "WinePrefix",
+        "wineversion": "Wine Version",
+        "anticheat-warning": {
+            "cancel": "Ei",
+            "message": "Huijauksenesto on rikki tai evätty. Peli ei tule toimimaan. Haluatko asentaa sen tästä huolimatta?",
+            "install": "Kyllä (ymmärtäen että tämä ei tule toimimaan)",
+            "title": "Huijauksenesto rikki/evätty",
+            "ok": "Ok",
+            "install_anyway": "Kyllä (ymmärrän että moninpeliominaisuudet eivät tule toimimaan)",
+            "multiplayer_message": "Huijaukseneston tuki on rikki tai evätty. Peli voi käynnistyä mutta moninpeliominaisuudet eivät tule toimimaan. Haluatko asentaa pelin tästä huolimatta?",
+            "disabled_installation": "Huijaukseneston tuki on rikki tai evätty, eivätkä moninpeliominaisuudet toimi. Peliä ei voi asentaa. Jos haluat asentaa tämän pelin kaikesta huolimatta, poista tämä tarkistus käytöstä lisäasetuksissa."
+        },
+        "flatpak-path-not-writtable": "Virhe: pääsy tähän polkuun on hiekkalaatikoinnin ulkopuolella ja evätty, tiedonmenetystä tulee tapahtumaan."
     },
     "label": {
+        "game": {
+            "third-party-game": "Kolmannen osapuolen peliä EI tueta",
+            "not-installable-game": "Peli EI ole asennettavissa"
+        },
         "playing": {
             "start": "Pelaa nyt",
             "stop": "Pelataan (pysäytä)"
         },
         "saves": {
             "syncing": "Synkronoidaan tallennuksia"
-        }
+        },
+        "launching": "Käynnistetään",
+        "ubisoft": "Ubisoft Connectin asentaminen",
+        "winetricks": "Asennetaan Winetricks-paketteja",
+        "redist": "Asennetaan uudelleenjaeltavat osat"
     },
     "launch": {
-        "options": "Launch Options..."
+        "options": "Käynnistysasetukset..."
     },
+    "not_logged_in": {
+        "epic": "Et ole kirjautunut sisään Epic-käyttäjällä. Älä käytä kauppaa sisäänkirjautumiseen, vaan paina seuraavaa nappia:",
+        "gog": "Et ole kirjautunut sisään GOG-käyttäjällä. Älä käytä kauppaa sisäänkirjautumiseen, vaan paina seuraavaa nappia:",
+        "login": "Log in",
+        "title": "ET ole kirjautunut sisään",
+        "amazon": "You are not logged in with an Epic account in Heroic. Don't use the store page to login, click the following button instead:"
+    },
+    "report_problem": "Ilmoita ongelmasta tässä pelissä",
     "sdl": {
-        "title": "Select components to Install"
+        "title": "Valitse asennettavat komponentit"
+    },
+    "setting": {
+        "use-default-wine-settings": "Käytä Winen oletusasetuksia",
+        "winecrossoverbottle": "CrossOver Bottle",
+        "warn-use-default-wine-settings": "Käytä tätä vaihtoehtoa vain, jos tiedät, mitä olet tekemässä.<br/>Saman prefixin käyttäminen useissa peleissä voi aiheuttaa ongelmia, jos niiden riippuvuudet eivät ole yhteensopivia.",
+        "show-wine-settings": "Näytä Wine-asetukset"
+    },
+    "sideload": {
+        "field": {
+            "title": "Otsikko"
+        },
+        "info": {
+            "exe": "Valitse suoritettava tiedosto",
+            "image": "App Image",
+            "title": "Pelin/sovelluksen otsikko",
+            "broser": "Selaimen URL-osoite",
+            "useragent": "Oma \"User Agent\"",
+            "fullscreen": "Vaihda täyden ruudun näkymään (F11 poistuu)"
+        },
+        "placeholder": {
+            "image": "Liitä kuvan URL tähän",
+            "title": "Lisää otsikko peliisi/sovellukseesi",
+            "url": "Liitä pelin URL-osoite tähän",
+            "useragent": "Tähän laitetaan vaihtoehtoinen selaimen tunnistetieto tälle sovellukselle/pelille"
+        }
     },
     "specs": {
         "minimum": "Minimi",
@@ -91,23 +219,66 @@
     },
     "status": {
         "clickToUpdate": "Päivitä",
+        "gameNotAvailable": "Peli ei saatavilla",
         "hasUpdates": "Uusi versio saatavilla!",
         "installed": "Asennettu",
         "installing": "Asennetaan",
         "moving": "Siirretään asennusta, odota",
         "notinstalled": "Tätä peliä ei ole asennettu",
+        "notSupported": "Ei tuettu",
+        "notSupportedGame": "Ei tuettu",
+        "processing": "Käsitellään tiedostoja, odota hetki",
+        "queued": "Jonossa",
         "reparing": "Korjataan peliä, odota",
+        "this-game-uses-third-party": "Tämä peli käyttää kolmannen osapuolen käynnistintä, eikä sitä tueta vielä",
         "totalDownloaded": "Ladattu yhteensä",
-        "updating": "Päivitetään peliä"
+        "uninstalling": "Poistetaan",
+        "updating": "Päivitetään peliä",
+        "playing": "Pelaaminen",
+        "moving-files": "Siirretään tiedostoa {{file}}: {{percent}}%",
+        "syncingSaves": "Synkronoidaan tallennuksia",
+        "launching": "Käynnistetään",
+        "ubisoft": "Ubisoftin asennus",
+        "downloading": "Ladataan",
+        "extracting": "Purkaminen",
+        "goodie": "Ei asennettavissa",
+        "gog-goodie": "Tämä peli ei näytä olevan asennettavissa. Tarkista ladattava sisältö osoitteessa https://gog.com/account",
+        "winetricks": "Asetetaan Winetricks-korjauksia",
+        "redist": "Asennetaan uudelleenjaeltavat osat ({{redist}})"
     },
     "submenu": {
         "addShortcut": "Lisää pikakuvake",
+        "addToSteam": "Lisää Steamiin",
         "change": "Vaihda asennussijaintia",
-        "log": "Uusin lokitiedosto",
+        "disableEosOverlay": "Poista EOS-päällyskerros",
+        "enableEosOverlay": "Poista EOS-päällyskerros",
         "move": "Siirrä peli",
         "protondb": "Tarkista yhteensopivuus",
+        "removeFromSteam": "Poista Steamista",
+        "removeShortcut": "Poista näppäinyhdistelmät",
         "settings": "Asetukset",
         "store": "Kauppasivu",
-        "verify": "Vahvista ja korjaa"
+        "verify": "Vahvista ja korjaa",
+        "extraInfo": "Lisätiedot",
+        "logs": "Lokit",
+        "categories": "Kategoriat"
+    },
+    "help": {
+        "cloud_save_unsupported": "Tämä peli ei tue pilvitallennusta. Nämä tiedot ovat pelin kehittäjien toimittamia. Jotkut pelit toteuttavat oman pilvitallennusjärjestelmän",
+        "title": {
+            "gamePage": "Pelisivu"
+        },
+        "content": {
+            "gamePage": "Näytä kaikki pelin yksityiskohdat ja toimet. Käytä hampurilaisvalikkoa nähdäksesi enemmän vaihtoehtoja."
+        }
+    },
+    "modifyInstall": {
+        "dlcsCollapsible": "DLC",
+        "nodlcs": "Ei DLC:tä saatavilla",
+        "redMod": {
+            "collapsible": "REDmod-integraatio",
+            "enable": "Salli modit"
+        },
+        "versionCollapsable": "Pelin versio"
     }
 }

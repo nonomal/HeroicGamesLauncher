@@ -28,7 +28,7 @@ module.exports = {
   indentation: 4,
   // Indentation of the catalog files
 
-  input: ['src/**/*.{ts,tsx}', 'electron/**/*.{ts,tsx}'],
+  input: ['src/**/*.{ts,tsx}'],
   // An array of globs that describe where to look for source files
   // relative to the location of the configuration file
 
@@ -53,37 +53,7 @@ module.exports = {
   lineEnding: 'auto',
   // Control the line ending. See options at https://github.com/ryanve/eol
 
-  locales: [
-    'bg',
-    'ca',
-    'cs',
-    'de',
-    'el',
-    'en',
-    'es',
-    'et',
-    'fa',
-    'fi',
-    'fr',
-    'gl',
-    'hr',
-    'hu',
-    'ja',
-    'ko',
-    'id',
-    'it',
-    'ml',
-    'nl',
-    'pl',
-    'pt',
-    'pt_BR',
-    'ru',
-    'sv',
-    'ta',
-    'tr',
-    'zh_Hans',
-    'zh_Hant'
-  ],
+  locales: ['en'],
   // An array of the locales in your applications
 
   namespaceSeparator: ':',

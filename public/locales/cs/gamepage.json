@@ -17,97 +17,279 @@
             "message": "Chcete se pokusit opravit tuto hru? Může to chvíli trvat.",
             "title": "Zkontrolovat a opravit"
         },
+        "runexe": {
+            "title": "Vyberte EXE ke spuštění"
+        },
+        "select": {
+            "button": "Zvolit"
+        },
+        "sideload": {
+            "exe": "Vybrat spustitelný soubor"
+        },
         "stopInstall": {
             "keepInstalling": "Pokračovat v instalaci",
             "message": "Chcete ponechat stažené soubory?",
             "title": "Zastavit instalaci"
         },
         "uninstall": {
-            "message": "Chcete odinstalovat tuto hru?",
-            "title": "Odinstalovat"
+            "checkbox": "Odebrat prefix: {{prefix}}{{newLine}}Upozornění: tato akce je nevratná a také odstraní nezálohované soubory uložení.",
+            "message": "Chcete odinstalovat „{{title}}“?",
+            "settingcheckbox": "Vymazat nastavení a odstranit protokol{{newLine}}Poznámka: Tento krok nelze vrátit zpět. Veškerá změněná nastavení budou zapomenuta a protokol bude odstraněn.",
+            "title": "Odinstalovat",
+            "prefix_warning": "Předpona Wine pro tuto hru je výchozí předpona. Pokud to opravdu chcete smazat, musíte to udělat ručně.",
+            "dlc": "Chcete odinstalovat „{{title}}“ (DLC)?",
+            "cannotUninstallEpic": "Hry Epic nelze odinstalovat při instalaci jiné hry Epic.",
+            "gameIsRunning": "Hra {{title}} je spuštěna. Pro její odinstalaci ji zavřete."
         },
         "update": {
-            "message": "Tato hra má aktualizaci, přejete si ji aktualizovat teď?",
+            "message": "Tato hra má aktualizaci, přejete si ji aktualizovat nyní?",
             "title": "Hra vyžaduje akualizaci"
         },
-        "wineprefix": "Select WinePrefix Folder",
-        "yes": "ANO"
+        "wineprefix": "Vyberte složku WinePrefix",
+        "yes": "ANO",
+        "close": "Zavřít"
     },
     "button": {
-        "cancel": "Zrušit",
+        "add_to_favourites": "Přidat do oblíbených",
+        "cancel": "Pozastavit/Zrušit",
         "continue": "Pokračovat ve stahování",
-        "import": "Importovat",
+        "finish": "Dokončit",
+        "force_update": "Vynutit aktualizaci, pokud je dostupná",
+        "force-innstall": "Vynutit instalaci",
+        "hide_game": "Skrýt hru",
+        "import": "Importovat Hru",
         "install": "Instalovat",
+        "no-path-selected": "Není vybrána žádná cesta",
+        "queue": {
+            "remove": "Odebrat z fronty"
+        },
+        "remove_from_favourites": "Odebrat z oblíbených",
+        "remove_from_recent": "Odebrat z nedávných",
+        "run-exe-first": "Nejprve spustit instalátor",
+        "running-setup": "Spouštění nastavení",
+        "sideload": {
+            "edit": "Upravit aplikaci/hru"
+        },
+        "unhide_game": "Odkrýt hru",
         "uninstall": "Odinstalovat",
-        "update": "Update"
+        "update": "Update",
+        "details": "Podrobnosti",
+        "changelog": "Zobrazit seznam změn"
     },
+    "cloud_save_unsupported": "Nepodporováno",
     "disabled": "Zakázáno",
     "dlc": {
-        "installDlcs": "Install all DLCs",
-        "title": "DLCs"
+        "installDlcs": "Instalovat všechna DLC"
     },
     "enabled": "Povoleno",
     "game": {
-        "downloadSize": "Download Size",
+        "downloadSize": "Velikost ke stažení",
         "firstPlayed": "Poprvé hráno",
-        "installSize": "Install Size",
+        "getting-download-size": "Načítání velikosti stahování",
+        "getting-install-size": "Načítání velikosti instalace",
+        "installSize": "Velikost instalace",
+        "language": "Jazyk",
         "lastPlayed": "Naposledy hráno",
         "neverPlayed": "Nikdy",
-        "totalPlayed": "Odehraný čas"
+        "platform": "Vyberte verzi platformy, kterou chcete nainstalovat",
+        "requirements": "Systémové požadavky",
+        "totalPlayed": "Odehraný čas",
+        "dlcs": "DLC",
+        "builds": {
+            "version": "Verze",
+            "toggle": "Ponechat hru na určité verzi",
+            "buildsSelector": "Zvolit verzi hry"
+        },
+        "branch": {
+            "disabled": "Zakázáno",
+            "password": "Nastavit heslo soukromého kanálu",
+            "select": "Zvolit beta kanál",
+            "setPrivateBranchPassword": "Nastavit heslo soukromého kanálu"
+        },
+        "changelogFor": "Seznam změn hry {{gameTitle}}",
+        "modify": "Upravit instalaci",
+        "extra_info": "Další informace",
+        "install_info": "Informace o instalaci"
     },
     "gamecard": {
         "moving": "Přesouvám",
         "repairing": "Opravuji"
     },
+    "generic": {
+        "error": "Neznámá chyba",
+        "noDescription": "Popis není dostupný"
+    },
+    "hours": "Hodiny",
+    "how-long-to-beat": {
+        "completionist": "Kompletionista",
+        "main-plus-extras": "Hlavní + extra",
+        "main-story": "Hlavní příběh"
+    },
+    "howLongToBeat": "Počet času na dokončení",
     "info": {
-        "canRunOffline": "Online Required",
-        "path": "Cesta pro instalaci",
+        "canRunOffline": "Vyžaduje se být online",
+        "installedPlatform": "Nainstalovaná platforma",
+        "path": "Adresář instalace",
         "size": "Velikost",
-        "syncsaves": "Synchronizovat uložené soubory",
-        "version": "Verze"
+        "syncsaves": "Synchronizace uložených souborů",
+        "version": "Verze",
+        "apple-gaming-wiki": "Hodnocení AppleGamingWiki",
+        "clickToOpen": "Kliknutím otevřete",
+        "game-scores": "Skóre hry",
+        "installedInfo": "Instalované informace",
+        "protondb-compatibility-info": "Úroveň protonové kompatibility",
+        "steamdeck-compatibility-info": "Kompatibilita se SteamDeck",
+        "third-party-app": "Správce třetí strany"
     },
     "install": {
-        "path": "Select Install Path",
-        "wineprefix": "WinePrefix"
+        "disk-space-left": "Volné místo",
+        "not-enough-disk-space": "Nedostatek místa na disku",
+        "path": "Vyberte cestu instalace",
+        "path-not-writtable": "Varování: na cestu možná nelze zapisovat.",
+        "space-after-install": "Po instalaci",
+        "wineprefix": "WinePrefix",
+        "wineversion": "Verze Wine",
+        "anticheat-warning": {
+            "cancel": "Ne",
+            "message": "Podpora anticheatu je rozbitá nebo zakázaná. Hra nebude fungovat. Chcete jej přesto nainstalovat?",
+            "install": "Ano (chápu, že to nebude fungovat)",
+            "title": "Rozbitý/zakázaný anticheat",
+            "install_anyway": "Ano (rozumím, že funkce hry více hráčů nebudou fungovat)",
+            "multiplayer_message": "Podpora anticheatu je rozbitá nebo odmítnutá. Hra se může otevřít, ale nebudou fungovat funkce hry více hráčů. Chcete ji přesto nainstalovat?",
+            "ok": "Ok",
+            "disabled_installation": "Podpora anticheatu je rozbitá nebo zakázaná a funkce hry více hráčů nebudou fungovat. Hru nelze nainstalovat. Pro nainstalování hry zakažte tuto kontrolu v pokročilých nastaveních."
+        },
+        "flatpak-path-not-writtable": "Chyba: této cestě nebyl udělen přístup k sandboxu, vyskytne se ztráta dat."
     },
     "label": {
+        "game": {
+            "third-party-game": "Hra třetí strany NENÍ podporována",
+            "not-installable-game": "Hra NELZE nainstalovat"
+        },
         "playing": {
             "start": "Hrát",
             "stop": "Hraji (Zastavit)"
         },
         "saves": {
             "syncing": "Synchronizuji uložené soubory"
-        }
+        },
+        "launching": "Spouštění",
+        "ubisoft": "Instalace Ubisoft Connect",
+        "winetricks": "Instalace balíčků Winetricks",
+        "prerequisites": "Instalace závislostí",
+        "redist": "Instalace Redistributables"
     },
     "launch": {
-        "options": "Launch Options..."
+        "options": "Možnosti spuštění..."
     },
+    "not_logged_in": {
+        "epic": "V Heroic nejste přihlášeni pomocí účtu Epic. K přihlášení nepoužívejte stránku obchodu, ale klikněte na následující tlačítko:",
+        "gog": "V Heroic nejste přihlášeni pomocí účtu GOG. K přihlášení nepoužívejte stránku obchodu, ale klikněte na následující tlačítko:",
+        "login": "Log in",
+        "title": "Nejste přihlášeni",
+        "amazon": "V Heroic nejste přihlášeni pomocí účtu Amazon. K přihlášení nepoužívejte stránku obchodu, ale klikněte na následující tlačítko:"
+    },
+    "report_problem": "Nahlásit problém se spouštěním této hry",
     "sdl": {
-        "title": "Select components to Install"
+        "title": "Vyberte součásti k instalaci"
+    },
+    "setting": {
+        "use-default-wine-settings": "Použít výchozí nastavení Wine",
+        "winecrossoverbottle": "CrossOver Bottle",
+        "warn-use-default-wine-settings": "Tuto možnost použijte pouze pokud víte, co děláte.<br/>Sdílení stejného prefixu pro více her může způsobit problémy, pokud jsou jejich závislosti nekompatibilní.",
+        "show-wine-settings": "Zobrazit nastavení Wine"
+    },
+    "sideload": {
+        "field": {
+            "title": "Název"
+        },
+        "info": {
+            "exe": "Vyberte spustitelný soubor",
+            "image": "Obrázek aplikace",
+            "title": "Název hry/aplikace",
+            "broser": "Adresa URL prohlížeče",
+            "useragent": "Vlastní User Agent",
+            "fullscreen": "Spustit na celé obrazovce (F11 pro opuštění)"
+        },
+        "placeholder": {
+            "image": "Sem vložte URL obrázku",
+            "title": "Přidejte název ke své hře/aplikaci",
+            "url": "Sem vložte adresu URL hry",
+            "useragent": "Sem zadejte vlastní User Agent (uživatelský agent) pro použití v této prohlížečové aplikaci/hře"
+        }
     },
     "specs": {
-        "minimum": "Minimum",
+        "minimum": "Minimální",
         "recommended": "Doporučené"
     },
     "status": {
         "clickToUpdate": "Click to Update",
+        "gameNotAvailable": "Hra není k dispozici",
         "hasUpdates": "Nová verze dostupná!",
         "installed": "Nainstalováno",
         "installing": "Instaluji",
         "moving": "Přesouvám instalaci, čekejte prosím",
         "notinstalled": "Tato hra není nainstalována",
+        "notSupported": "Není podporována",
+        "notSupportedGame": "Není podporována",
+        "processing": "Zpracovávám soubory, čekejte prosím",
+        "queued": "Ve frontě",
         "reparing": "Opravuji hru, čekejte prosím",
+        "this-game-uses-third-party": "Tato hra používá launcher třetí strany a zatím není podporována",
         "totalDownloaded": "Celkově staženo",
-        "updating": "Aktualizuji hru"
+        "uninstalling": "Odinstalace",
+        "updating": "Aktualizuji hru",
+        "playing": "Hraní",
+        "moving-files": "Přesouvání souboru „{{file}}“: {{percent}} %",
+        "syncingSaves": "Synchronizuji uložené soubory",
+        "launching": "Spouštění",
+        "ubisoft": "Instalace Ubisoftu",
+        "downloading": "Stahování",
+        "extracting": "Extrakce",
+        "gog-goodie": "Zdá se, že tuto hru nelze nainstalovat. Zkontrolujte obsah ke stažení na https://gog.com/account",
+        "goodie": "Nelze nainstalovat",
+        "prerequisites": "Instalace závislostí",
+        "winetricks": "Aplikace oprav Winetricks",
+        "redist": "Instalace Redistributables ({{redist}})"
     },
     "submenu": {
-        "addShortcut": "Přidat zkratku",
+        "addShortcut": "Přidat zástupce",
+        "addToSteam": "Přidat do Steamu",
         "change": "Změnit cestu instalace",
-        "log": "Nejnovější záznam",
+        "disableEosOverlay": "Zakázat překrytí služby EOS",
+        "enableEosOverlay": "Povolit překrytí služby EOS",
         "move": "Přesunout hru",
         "protondb": "Zkontrolovat kompatibilitu",
+        "removeFromSteam": "Odebrat ze Steamu",
+        "removeShortcut": "Odebrat zástupce",
         "settings": "Nastavení",
         "store": "Stránka obchodu",
-        "verify": "Zkontrolovat a opravit"
+        "verify": "Zkontrolovat a opravit",
+        "extraInfo": "Další informace",
+        "logs": "Protokoly",
+        "categories": "Kategorie"
+    },
+    "help": {
+        "cloud_save_unsupported": "Tato hra nepodporuje ukládání do cloudu. Tyto informace poskytují vývojáři hry. Některé hry implementují svůj vlastní cloudový systém ukládání",
+        "content": {
+            "gamePage": "Zobrazit všechny herní podrobnosti a akce. Pro více možností použijte 3-tečkovou nabídku."
+        },
+        "title": {
+            "gamePage": "Herní stránka"
+        }
+    },
+    "modifyInstall": {
+        "dlcsCollapsible": "DLC",
+        "redMod": {
+            "enable": "Povolit mody",
+            "collapsible": "Integrace REDmod"
+        },
+        "versionCollapsable": "Verze hry",
+        "nodlcs": "Není dostupné žádné DLC"
+    },
+    "third-party-managed": {
+        "notice2": "Po kliknutí na Instalovat spustí Heroic aplikaci, aby dokončil proces instalace",
+        "header": "Tato hra je spravována aplikací třetí strany",
+        "notice1": "Tato hra je spravována aplikací třetí strany: „{{application_name}}“"
     }
 }
